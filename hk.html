@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will You Be Mine?</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Hey <span id="crushName">Thahira</span>,</h1>
+    <p>I have something special to ask you...</p>
+    <div class="heart" onclick="propose()">❤️</div>
+    <p id="proposalText" class="hidden">do you feel you're in love with me seriously?</p>
+    <div id="buttons" class="hidden">
+      <button onclick="accept()">Yes! 💖</button>
+      <button onclick="reject()">No.🥺</button>
+    </div>
+    <p id="response" class="hidden"></p>
+    <div id="gallery" class="hidden">
+      <h2>Our Memories 💕</h2>
+      <p>I wanted to write you a love letter.I know it's a little silly,but I'd try anyway.Whenever I'm with you, I'm different, but in a good way.I'm amazed by the way you care for me. It's in the little things you do, the way you listen to me, the way you're always there when I need you,the way your cute possessiveness etc,.One of the things I love most about you is how deeply you care for me.Whether it's the way you check in on me when I'm stressed,the way you always know exactly what to say to make me feel better, your love and care are my safe haven.You make me feel like the most important person in the world, and I promise to cherish and honor the love you give me every single day. I love you more than words can ever express. ❤️
+
+      </p>
+      <div class="photos">
+        <img src="hk01.jpeg" alt="Memory 1">
+        <img src="hk0001.jpeg" alt="Memory 2">
+        <img src="hk001.jpeg" alt="Memory 3">
+      </div>
+    </div>
+    <div id="noImage" class="hidden">
+      <p>if you ever decide not to marry me, I already have a backup plan to your sister. I mean, she's basically you but with a different name right? She already laughs at my jokes (sometimes), and knows all the best stories about you. So, if you're not careful, I might just upgrade to the sibling edition. But don't worry, you'll always be my first choice. unless she says yes. Love you(and maybe your sister a little too)! ❤️</p>
+        <img src="faru1.jpeg" alt="no image">
+        <img src="faru2.jpeg" alt="no image">
+        <img src="faru3.jpeg" alt="no img">
+    </div>
+  </div>
+  <audio id="backgroundMusic" loop>
+    <source src="kim.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
